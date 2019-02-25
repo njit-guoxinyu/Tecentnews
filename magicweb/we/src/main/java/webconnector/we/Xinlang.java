@@ -3,6 +3,7 @@ package webconnector.we;
 import java.io.FileOutputStream;
 import java.util.LinkedList;
 
+import cn.edu.hfut.dmic.contentextractor.ContentExtractor;
 import cn.edu.hfut.dmic.webcollector.model.CrawlDatums;
 import cn.edu.hfut.dmic.webcollector.plugin.rocks.BreadthCrawler;
 
@@ -22,7 +23,7 @@ public class Xinlang extends BreadthCrawler {
 	        //this.addRegex("-.*#.*");
 
 	        setThreads(50);
-	        getConf().setTopN(100);
+	        //getConf().setTopN(101);//最多爬取多少网页
 
 	        //enable resumable mode
 	        //setResumable(true);
@@ -32,13 +33,21 @@ public class Xinlang extends BreadthCrawler {
 	    public static void main(String[] args) throws Exception {
 	        Xinlang crawler = new Xinlang("crawl", true);
 	        /*start crawl with depth of 4*/
-	        crawler.start(5);
+	        crawler.start(10);
 	    }
 		public void visit(cn.edu.hfut.dmic.webcollector.model.Page page, CrawlDatums next) {
 			// TODO Auto-generated method stub
 			 String url = page.url().toString();
+			 try {
+				String content =  ContentExtractor.getContentByHtml(page.html());
+				if(content.contains("新春"))
+					l.add(url);
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				
+			}
 			 //if(url.matches("https://news.sina.com.cn/*//[0-9]{4}-[0-9]{2}-[0-9]{2}//*"))
-			 l.add(url);
+			 
 			next.add(page.links());
 			if(l.size()>=20)
 			{
