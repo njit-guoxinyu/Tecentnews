@@ -1,0 +1,209 @@
+2019/02/25-12:46:49.995609 272c RocksDB version: 5.14.2
+2019/02/25-12:46:49.995676 272c Git sha rocksdb_build_git_sha:@5089e121166c46956a8a21c8ef967f1896c239de@
+2019/02/25-12:46:49.995702 272c Compile date Jul  6 2018
+2019/02/25-12:46:49.995719 272c DB SUMMARY
+2019/02/25-12:46:49.996020 272c CURRENT file:  CURRENT
+2019/02/25-12:46:49.996048 272c IDENTITY file:  IDENTITY
+2019/02/25-12:46:49.996219 272c MANIFEST file:  MANIFEST-000026 size: 521 Bytes
+2019/02/25-12:46:49.996250 272c SST files in C:\Users\Administrator\eclipse-workspace\magicweb\we\crawl\crawldb dir, Total Num: 5, files: 000004.sst 000013.sst 000019.sst 000025.sst 000030.sst 
+2019/02/25-12:46:49.996268 272c Write Ahead Log file in C:\Users\Administrator\eclipse-workspace\magicweb\we\crawl\crawldb: 000027.log size: 0 ; 
+2019/02/25-12:46:49.997569 272c                         Options.error_if_exists: 0
+2019/02/25-12:46:49.997588 272c                       Options.create_if_missing: 1
+2019/02/25-12:46:49.997595 272c                         Options.paranoid_checks: 1
+2019/02/25-12:46:49.997602 272c                                     Options.env: 0000021AA19E9F50
+2019/02/25-12:46:49.997608 272c                                Options.info_log: 0000021AA4D6A870
+2019/02/25-12:46:49.997615 272c                Options.max_file_opening_threads: 16
+2019/02/25-12:46:49.997621 272c                              Options.statistics: 0000000000000000
+2019/02/25-12:46:49.997627 272c                               Options.use_fsync: 0
+2019/02/25-12:46:49.997632 272c                       Options.max_log_file_size: 0
+2019/02/25-12:46:49.997638 272c                  Options.max_manifest_file_size: 18446744073709551615
+2019/02/25-12:46:49.997644 272c                   Options.log_file_time_to_roll: 0
+2019/02/25-12:46:49.997650 272c                       Options.keep_log_file_num: 1000
+2019/02/25-12:46:49.997656 272c                    Options.recycle_log_file_num: 0
+2019/02/25-12:46:49.997661 272c                         Options.allow_fallocate: 1
+2019/02/25-12:46:49.997667 272c                        Options.allow_mmap_reads: 0
+2019/02/25-12:46:49.997673 272c                       Options.allow_mmap_writes: 0
+2019/02/25-12:46:49.997679 272c                        Options.use_direct_reads: 0
+2019/02/25-12:46:49.997685 272c                        Options.use_direct_io_for_flush_and_compaction: 0
+2019/02/25-12:46:49.997691 272c          Options.create_missing_column_families: 0
+2019/02/25-12:46:49.997696 272c                              Options.db_log_dir: 
+2019/02/25-12:46:49.997703 272c                                 Options.wal_dir: C:\Users\Administrator\eclipse-workspace\magicweb\we\crawl\crawldb
+2019/02/25-12:46:49.997710 272c                Options.table_cache_numshardbits: 6
+2019/02/25-12:46:49.997716 272c                      Options.max_subcompactions: 1
+2019/02/25-12:46:49.997722 272c                  Options.max_background_flushes: -1
+2019/02/25-12:46:49.997729 272c                         Options.WAL_ttl_seconds: 0
+2019/02/25-12:46:49.997735 272c                       Options.WAL_size_limit_MB: 0
+2019/02/25-12:46:49.997742 272c             Options.manifest_preallocation_size: 4194304
+2019/02/25-12:46:49.997749 272c                     Options.is_fd_close_on_exec: 1
+2019/02/25-12:46:49.997756 272c                   Options.advise_random_on_open: 1
+2019/02/25-12:46:49.997762 272c                    Options.db_write_buffer_size: 0
+2019/02/25-12:46:49.997769 272c                    Options.write_buffer_manager: 0000021AA30D6980
+2019/02/25-12:46:49.997776 272c         Options.access_hint_on_compaction_start: 1
+2019/02/25-12:46:49.997781 272c  Options.new_table_reader_for_compaction_inputs: 0
+2019/02/25-12:46:49.997785 272c           Options.random_access_max_buffer_size: 1048576
+2019/02/25-12:46:49.997790 272c                      Options.use_adaptive_mutex: 0
+2019/02/25-12:46:49.997795 272c                            Options.rate_limiter: 0000000000000000
+2019/02/25-12:46:49.997799 272c     Options.sst_file_manager.rate_bytes_per_sec: 0
+2019/02/25-12:46:49.997804 272c                       Options.wal_recovery_mode: 2
+2019/02/25-12:46:49.997844 272c                  Options.enable_thread_tracking: 0
+2019/02/25-12:46:49.997851 272c                  Options.enable_pipelined_write: 0
+2019/02/25-12:46:49.997856 272c         Options.allow_concurrent_memtable_write: 1
+2019/02/25-12:46:49.997860 272c      Options.enable_write_thread_adaptive_yield: 1
+2019/02/25-12:46:49.997865 272c             Options.write_thread_max_yield_usec: 100
+2019/02/25-12:46:49.997869 272c            Options.write_thread_slow_yield_usec: 3
+2019/02/25-12:46:49.997874 272c                               Options.row_cache: None
+2019/02/25-12:46:49.997878 272c                              Options.wal_filter: None
+2019/02/25-12:46:49.997883 272c             Options.avoid_flush_during_recovery: 0
+2019/02/25-12:46:49.997888 272c             Options.allow_ingest_behind: 0
+2019/02/25-12:46:49.997892 272c             Options.preserve_deletes: 0
+2019/02/25-12:46:49.997897 272c             Options.two_write_queues: 0
+2019/02/25-12:46:49.997901 272c             Options.manual_wal_flush: 0
+2019/02/25-12:46:49.997905 272c             Options.max_background_jobs: 2
+2019/02/25-12:46:49.997909 272c             Options.max_background_compactions: -1
+2019/02/25-12:46:49.997914 272c             Options.avoid_flush_during_shutdown: 0
+2019/02/25-12:46:49.997921 272c           Options.writable_file_max_buffer_size: 1048576
+2019/02/25-12:46:49.997926 272c             Options.delayed_write_rate : 16777216
+2019/02/25-12:46:49.997930 272c             Options.max_total_wal_size: 0
+2019/02/25-12:46:49.997935 272c             Options.delete_obsolete_files_period_micros: 21600000000
+2019/02/25-12:46:49.997940 272c                   Options.stats_dump_period_sec: 600
+2019/02/25-12:46:49.997944 272c                          Options.max_open_files: -1
+2019/02/25-12:46:49.997949 272c                          Options.bytes_per_sync: 0
+2019/02/25-12:46:49.997953 272c                      Options.wal_bytes_per_sync: 0
+2019/02/25-12:46:49.997958 272c       Options.compaction_readahead_size: 0
+2019/02/25-12:46:49.997962 272c Compression algorithms supported:
+2019/02/25-12:46:49.997967 272c 	kZSTD supported: 0
+2019/02/25-12:46:49.997971 272c 	kSnappyCompression supported: 0
+2019/02/25-12:46:49.997976 272c 	kBZip2Compression supported: 0
+2019/02/25-12:46:49.997980 272c 	kZlibCompression supported: 0
+2019/02/25-12:46:49.997985 272c 	kLZ4Compression supported: 0
+2019/02/25-12:46:49.997992 272c 	kXpressCompression supported: 0
+2019/02/25-12:46:49.997998 272c 	kLZ4HCCompression supported: 0
+2019/02/25-12:46:49.998003 272c 	kZSTDNotFinalCompression supported: 0
+2019/02/25-12:46:49.998012 272c Fast CRC32 supported: Supported on x86
+2019/02/25-12:46:49.999392 272c [c:\users\aretter\code\rocksdb\db\version_set.cc:3085] Recovering from manifest file: MANIFEST-000026
+2019/02/25-12:46:49.999618 272c [c:\users\aretter\code\rocksdb\db\column_family.cc:475] --------------- Options for column family [default]:
+2019/02/25-12:46:49.999634 272c               Options.comparator: leveldb.BytewiseComparator
+2019/02/25-12:46:49.999641 272c           Options.merge_operator: None
+2019/02/25-12:46:49.999648 272c        Options.compaction_filter: None
+2019/02/25-12:46:49.999654 272c        Options.compaction_filter_factory: None
+2019/02/25-12:46:49.999661 272c         Options.memtable_factory: SkipListFactory
+2019/02/25-12:46:49.999667 272c            Options.table_factory: BlockBasedTable
+2019/02/25-12:46:49.999723 272c            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0000021AA52C5DD0)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 0000021AA2CF0250
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 8388608
+    num_shard_bits : 4
+    strict_capacity_limit : 0
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 2
+  enable_index_compression: 1
+  block_align: 0
+2019/02/25-12:46:49.999788 272c        Options.write_buffer_size: 67108864
+2019/02/25-12:46:49.999798 272c  Options.max_write_buffer_number: 2
+2019/02/25-12:46:49.999805 272c          Options.compression: NoCompression
+2019/02/25-12:46:49.999811 272c                  Options.bottommost_compression: Disabled
+2019/02/25-12:46:49.999817 272c       Options.prefix_extractor: nullptr
+2019/02/25-12:46:49.999823 272c   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2019/02/25-12:46:49.999830 272c             Options.num_levels: 7
+2019/02/25-12:46:49.999835 272c        Options.min_write_buffer_number_to_merge: 1
+2019/02/25-12:46:49.999841 272c     Options.max_write_buffer_number_to_maintain: 0
+2019/02/25-12:46:49.999847 272c            Options.compression_opts.window_bits: -14
+2019/02/25-12:46:49.999853 272c                  Options.compression_opts.level: -1
+2019/02/25-12:46:49.999859 272c               Options.compression_opts.strategy: 0
+2019/02/25-12:46:49.999865 272c         Options.compression_opts.max_dict_bytes: 0
+2019/02/25-12:46:49.999872 272c         Options.compression_opts.zstd_max_train_bytes: 0
+2019/02/25-12:46:49.999878 272c      Options.level0_file_num_compaction_trigger: 4
+2019/02/25-12:46:49.999884 272c          Options.level0_slowdown_writes_trigger: 20
+2019/02/25-12:46:49.999891 272c              Options.level0_stop_writes_trigger: 36
+2019/02/25-12:46:49.999897 272c                   Options.target_file_size_base: 67108864
+2019/02/25-12:46:49.999903 272c             Options.target_file_size_multiplier: 1
+2019/02/25-12:46:49.999908 272c                Options.max_bytes_for_level_base: 268435456
+2019/02/25-12:46:49.999914 272c Options.level_compaction_dynamic_level_bytes: 0
+2019/02/25-12:46:49.999920 272c          Options.max_bytes_for_level_multiplier: 10.000000
+2019/02/25-12:46:49.999934 272c Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2019/02/25-12:46:49.999940 272c Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2019/02/25-12:46:49.999946 272c Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2019/02/25-12:46:49.999953 272c Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2019/02/25-12:46:49.999959 272c Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2019/02/25-12:46:49.999965 272c Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2019/02/25-12:46:49.999972 272c Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2019/02/25-12:46:49.999978 272c       Options.max_sequential_skip_in_iterations: 8
+2019/02/25-12:46:49.999983 272c                    Options.max_compaction_bytes: 1677721600
+2019/02/25-12:46:49.999989 272c                        Options.arena_block_size: 8388608
+2019/02/25-12:46:49.999997 272c   Options.soft_pending_compaction_bytes_limit: 68719476736
+2019/02/25-12:46:50.000002 272c   Options.hard_pending_compaction_bytes_limit: 274877906944
+2019/02/25-12:46:50.000008 272c       Options.rate_limit_delay_max_milliseconds: 100
+2019/02/25-12:46:50.000014 272c                Options.disable_auto_compactions: 0
+2019/02/25-12:46:50.000020 272c                        Options.compaction_style: kCompactionStyleLevel
+2019/02/25-12:46:50.000026 272c                          Options.compaction_pri: kByCompensatedSize
+2019/02/25-12:46:50.000031 272c Options.compaction_options_universal.size_ratio: 1
+2019/02/25-12:46:50.000035 272c Options.compaction_options_universal.min_merge_width: 2
+2019/02/25-12:46:50.000040 272c Options.compaction_options_universal.max_merge_width: 4294967295
+2019/02/25-12:46:50.000045 272c Options.compaction_options_universal.max_size_amplification_percent: 200
+2019/02/25-12:46:50.000050 272c Options.compaction_options_universal.compression_size_percent: -1
+2019/02/25-12:46:50.000055 272c Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2019/02/25-12:46:50.000063 272c Options.compaction_options_fifo.max_table_files_size: 1073741824
+2019/02/25-12:46:50.000070 272c Options.compaction_options_fifo.allow_compaction: 0
+2019/02/25-12:46:50.000076 272c Options.compaction_options_fifo.ttl: 0
+2019/02/25-12:46:50.000082 272c                   Options.table_properties_collectors: 
+2019/02/25-12:46:50.000088 272c                   Options.inplace_update_support: 0
+2019/02/25-12:46:50.000094 272c                 Options.inplace_update_num_locks: 10000
+2019/02/25-12:46:50.000100 272c               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2019/02/25-12:46:50.000108 272c   Options.memtable_huge_page_size: 0
+2019/02/25-12:46:50.000114 272c                           Options.bloom_locality: 0
+2019/02/25-12:46:50.000121 272c                    Options.max_successive_merges: 0
+2019/02/25-12:46:50.000127 272c                Options.optimize_filters_for_hits: 0
+2019/02/25-12:46:50.000133 272c                Options.paranoid_file_checks: 0
+2019/02/25-12:46:50.000139 272c                Options.force_consistency_checks: 0
+2019/02/25-12:46:50.000145 272c                Options.report_bg_io_stats: 0
+2019/02/25-12:46:50.000151 272c                               Options.ttl: 0
+2019/02/25-12:46:50.001344 272c [c:\users\aretter\code\rocksdb\db\version_set.cc:3361] Recovered from manifest file:C:\Users\Administrator\eclipse-workspace\magicweb\we\crawl\crawldb/MANIFEST-000026 succeeded,manifest_file_number is 26, next_file_number is 32, last_sequence is 11228, log_number is 0,prev_log_number is 0,max_column_family is 0,min_log_number_to_keep is 0
+2019/02/25-12:46:50.001373 272c [c:\users\aretter\code\rocksdb\db\version_set.cc:3369] Column family [default] (ID 0), log number is 25
+2019/02/25-12:46:50.001909 272c EVENT_LOG_v1 {"time_micros": 1551070010001893, "job": 1, "event": "recovery_started", "log_files": [27]}
+2019/02/25-12:46:50.001940 272c [c:\users\aretter\code\rocksdb\db\db_impl_open.cc:551] Recovering log #27 mode 2
+2019/02/25-12:46:50.002043 272c [c:\users\aretter\code\rocksdb\db\version_set.cc:2847] Creating manifest 32
+2019/02/25-12:46:50.025608 272c EVENT_LOG_v1 {"time_micros": 1551070010025597, "job": 1, "event": "recovery_finished"}
+2019/02/25-12:46:50.030992 272c EVENT_LOG_v1 {"time_micros": 1551070010030975, "job": 2, "event": "table_file_deletion", "file_number": 25}
+2019/02/25-12:46:50.032317 272c EVENT_LOG_v1 {"time_micros": 1551070010032300, "job": 2, "event": "table_file_deletion", "file_number": 19}
+2019/02/25-12:46:50.033327 272c EVENT_LOG_v1 {"time_micros": 1551070010033314, "job": 2, "event": "table_file_deletion", "file_number": 13}
+2019/02/25-12:46:50.034429 272c EVENT_LOG_v1 {"time_micros": 1551070010034416, "job": 2, "event": "table_file_deletion", "file_number": 4}
+2019/02/25-12:46:50.054083 272c [c:\users\aretter\code\rocksdb\db\db_impl_open.cc:1219] DB pointer 0000021AA235A040
+2019/02/25-12:46:50.249463 272c [c:\users\aretter\code\rocksdb\db\db_impl.cc:252] Shutdown: canceling all background work
+2019/02/25-12:46:50.250243 272c [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:268] [JOB 3] Tried to delete a non-existing file C:\Users\Administrator\eclipse-workspace\magicweb\we\crawl\crawldb/000025.sst type=2 #25 -- IO error: Failed to delete: C:\Users\Administrator\eclipse-workspace\magicweb\we\crawl\crawldb/000025.sst: ¾Ü¾ø·ÃÎÊ¡£
+
+2019/02/25-12:46:50.250280 272c EVENT_LOG_v1 {"time_micros": 1551070010250267, "job": 3, "event": "table_file_deletion", "file_number": 25, "status": "IO error: Failed to delete: C:\Users\Administrator\eclipse-workspace\magicweb\we\crawl\crawldb/000025.sst: ¾Ü¾ø·ÃÎÊ¡£
+"}
+2019/02/25-12:46:50.250548 272c [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:268] [JOB 3] Tried to delete a non-existing file C:\Users\Administrator\eclipse-workspace\magicweb\we\crawl\crawldb/000019.sst type=2 #19 -- IO error: Failed to delete: C:\Users\Administrator\eclipse-workspace\magicweb\we\crawl\crawldb/000019.sst: ¾Ü¾ø·ÃÎÊ¡£
+
+2019/02/25-12:46:50.250571 272c EVENT_LOG_v1 {"time_micros": 1551070010250562, "job": 3, "event": "table_file_deletion", "file_number": 19, "status": "IO error: Failed to delete: C:\Users\Administrator\eclipse-workspace\magicweb\we\crawl\crawldb/000019.sst: ¾Ü¾ø·ÃÎÊ¡£
+"}
+2019/02/25-12:46:50.250882 272c [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:268] [JOB 3] Tried to delete a non-existing file C:\Users\Administrator\eclipse-workspace\magicweb\we\crawl\crawldb/000013.sst type=2 #13 -- IO error: Failed to delete: C:\Users\Administrator\eclipse-workspace\magicweb\we\crawl\crawldb/000013.sst: ¾Ü¾ø·ÃÎÊ¡£
+
+2019/02/25-12:46:50.250911 272c EVENT_LOG_v1 {"time_micros": 1551070010250901, "job": 3, "event": "table_file_deletion", "file_number": 13, "status": "IO error: Failed to delete: C:\Users\Administrator\eclipse-workspace\magicweb\we\crawl\crawldb/000013.sst: ¾Ü¾ø·ÃÎÊ¡£
+"}
+2019/02/25-12:46:50.251208 272c [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:268] [JOB 3] Tried to delete a non-existing file C:\Users\Administrator\eclipse-workspace\magicweb\we\crawl\crawldb/000004.sst type=2 #4 -- IO error: Failed to delete: C:\Users\Administrator\eclipse-workspace\magicweb\we\crawl\crawldb/000004.sst: ¾Ü¾ø·ÃÎÊ¡£
+
+2019/02/25-12:46:50.251235 272c EVENT_LOG_v1 {"time_micros": 1551070010251226, "job": 3, "event": "table_file_deletion", "file_number": 4, "status": "IO error: Failed to delete: C:\Users\Administrator\eclipse-workspace\magicweb\we\crawl\crawldb/000004.sst: ¾Ü¾ø·ÃÎÊ¡£
+"}
+2019/02/25-12:46:50.259310 272c [c:\users\aretter\code\rocksdb\db\db_impl.cc:398] Shutdown complete
